@@ -96,6 +96,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0.324
       objectReference: {fileID: 0}
+    - target: {fileID: 8689225412557063885, guid: 10187739c214cda4ab20a7c18cd0e152, type: 3}
+      propertyPath: soundIndex
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 9101790167328283289, guid: 10187739c214cda4ab20a7c18cd0e152, type: 3}
       propertyPath: m_Size.z
       value: 0.34964907

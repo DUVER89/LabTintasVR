@@ -80,6 +80,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2405607807214676361, guid: 0b022e8b195c5054d9fd2492215f42a1, type: 3}
+      propertyPath: soundIndex
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 2444127085727005657, guid: 0b022e8b195c5054d9fd2492215f42a1, type: 3}
       propertyPath: m_LocalPosition.z
       value: -0.052
