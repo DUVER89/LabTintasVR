@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3161725452289730133
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2417077146404391891}
+  m_Layer: 0
+  m_Name: "AN\xC1LISIS DENSITOM\xC9TRICO"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2417077146404391891
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3161725452289730133}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -3.395, y: 0.915, z: -0.675}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3243930381346713640}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &8861267841661224203
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2417077146404391891}
+    m_Modifications:
+    - target: {fileID: 3859279667695932483, guid: e8ba0e124d53c5641b6eafb4a6ee92a9, type: 3}
+      propertyPath: m_Name
+      value: espectrodesimetro
+      objectReference: {fileID: 0}
+    - target: {fileID: 6340308897228387619, guid: e8ba0e124d53c5641b6eafb4a6ee92a9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6340308897228387619, guid: e8ba0e124d53c5641b6eafb4a6ee92a9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.04699999
+      objectReference: {fileID: 0}
+    - target: {fileID: 6340308897228387619, guid: e8ba0e124d53c5641b6eafb4a6ee92a9, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6340308897228387619, guid: e8ba0e124d53c5641b6eafb4a6ee92a9, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6340308897228387619, guid: e8ba0e124d53c5641b6eafb4a6ee92a9, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6340308897228387619, guid: e8ba0e124d53c5641b6eafb4a6ee92a9, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6340308897228387619, guid: e8ba0e124d53c5641b6eafb4a6ee92a9, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6340308897228387619, guid: e8ba0e124d53c5641b6eafb4a6ee92a9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6340308897228387619, guid: e8ba0e124d53c5641b6eafb4a6ee92a9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6340308897228387619, guid: e8ba0e124d53c5641b6eafb4a6ee92a9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 8855446269880664303, guid: e8ba0e124d53c5641b6eafb4a6ee92a9, type: 3}
+      propertyPath: soundIndex
+      value: 12
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e8ba0e124d53c5641b6eafb4a6ee92a9, type: 3}
+--- !u!4 &3243930381346713640 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6340308897228387619, guid: e8ba0e124d53c5641b6eafb4a6ee92a9, type: 3}
+  m_PrefabInstance: {fileID: 8861267841661224203}
+  m_PrefabAsset: {fileID: 0}
