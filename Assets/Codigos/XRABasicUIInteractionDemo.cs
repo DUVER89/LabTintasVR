@@ -1,5 +1,4 @@
-using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
 
 public class XRABasicUIInteractionDemo : MonoBehaviour
@@ -7,7 +6,7 @@ public class XRABasicUIInteractionDemo : MonoBehaviour
     [Header("Prefabs a generar")]
     [SerializeField] private List<GameObject> customPrefabs = new List<GameObject>();
 
-    [Header("Punto de aparici�n (Spawn Point)")]
+    [Header("Punto de aparición (Spawn Point)")]
     [SerializeField] private Transform spawnPoint;
 
     private int currentIndex = -1;
