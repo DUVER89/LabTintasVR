@@ -58,6 +58,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -141,6 +144,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -289,6 +295,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -372,6 +381,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -413,27 +425,35 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1936441984584980729, guid: 5ac04be9157c7254e8eaffadf877cd95, type: 3}
       propertyPath: m_Size.x
-      value: 0.5748899
+      value: 0.42001778
       objectReference: {fileID: 0}
     - target: {fileID: 1936441984584980729, guid: 5ac04be9157c7254e8eaffadf877cd95, type: 3}
       propertyPath: m_Size.y
-      value: 0.44383514
+      value: 0.19603987
+      objectReference: {fileID: 0}
+    - target: {fileID: 1936441984584980729, guid: 5ac04be9157c7254e8eaffadf877cd95, type: 3}
+      propertyPath: m_Size.z
+      value: 0.36226434
       objectReference: {fileID: 0}
     - target: {fileID: 1936441984584980729, guid: 5ac04be9157c7254e8eaffadf877cd95, type: 3}
       propertyPath: m_Center.x
-      value: -0.0013789386
+      value: 0.00047948956
       objectReference: {fileID: 0}
     - target: {fileID: 1936441984584980729, guid: 5ac04be9157c7254e8eaffadf877cd95, type: 3}
       propertyPath: m_Center.y
-      value: 0.07876545
+      value: -0.045132183
+      objectReference: {fileID: 0}
+    - target: {fileID: 1936441984584980729, guid: 5ac04be9157c7254e8eaffadf877cd95, type: 3}
+      propertyPath: m_Center.z
+      value: 0.008689225
       objectReference: {fileID: 0}
     - target: {fileID: 2058392435518592765, guid: 5ac04be9157c7254e8eaffadf877cd95, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.139
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2058392435518592765, guid: 5ac04be9157c7254e8eaffadf877cd95, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0.3
+      value: 0.24
       objectReference: {fileID: 0}
     - target: {fileID: 3530916667308339553, guid: 5ac04be9157c7254e8eaffadf877cd95, type: 3}
       propertyPath: m_LocalPosition.x

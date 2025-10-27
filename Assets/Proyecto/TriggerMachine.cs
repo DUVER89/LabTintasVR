@@ -11,7 +11,7 @@ public class TriggerMachine : MonoBehaviour
         if (other.CompareTag(interactionTag))
         {
             other.transform.position = Spawn.transform.position;
-            other.transform.rotation = Quaternion.Euler(0f,0f, 90f);
+            other.transform.rotation = Quaternion.Euler(0f, 0f, 0f);
         }
     }
 

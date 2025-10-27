@@ -2,56 +2,56 @@
 
 public class AudioManagerGlobal : MonoBehaviour
 {
-    public static AudioManagerGlobal Instance; // Patrón Singleton
-    [Header("Lista de sonidos disponibles")]
-    public AudioClip[] audioClips;
+    public static AudioManagerGlobal Instance { get; private set; }
 
-    private AudioSource audioSource;
+    [Header("Lista de sonidos disponibles")]
+    public AudioClip[] sonidos;
+
+    private AudioSource fuenteAudio;
 
     void Awake()
     {
-        // Asegurar que solo haya un AudioManager en la escena
         if (Instance != null && Instance != this)
         {
             Destroy(gameObject);
             return;
         }
-
         Instance = this;
-        DontDestroyOnLoad(gameObject); // Opcional, si cambias de escena
+        DontDestroyOnLoad(gameObject);
 
-        audioSource = gameObject.AddComponent<AudioSource>();
-        audioSource.loop = false;
-        audioSource.spatialBlend = 0f; // 0 = 2D
+        fuenteAudio = gameObject.AddComponent<AudioSource>();
     }
 
-    public void PlaySound(int index)
+    public void ReproducirSonido(int indice)
     {
-        if (index < 0 || index >= audioClips.Length)
+        if (indice < 0 || indice >= sonidos.Length)
         {
-            Debug.LogWarning($"Índice {index} fuera de rango. Total clips: {audioClips.Length}");
+            Debug.LogWarning("Índice de sonido fuera de rango.");
             return;
         }
 
-        AudioClip clip = audioClips[index];
-        if (clip == null)
+        // Si ya se está reproduciendo, reanudarlo
+        if (fuenteAudio.clip == sonidos[indice] && fuenteAudio.isPlaying == false)
         {
-            Debug.LogWarning($"El clip {index} no está asignado en AudioManagerGlobal.");
-            return;
+            fuenteAudio.UnPause();
         }
-
-        if (audioSource.isPlaying)
-            audioSource.Stop();
-
-        audioSource.clip = clip;
-        audioSource.Play();
-
-        Debug.Log($"🎵 Reproduciendo clip: {clip.name}");
+        else
+        {
+            fuenteAudio.clip = sonidos[indice];
+            fuenteAudio.Play();
+        }
     }
 
-    public void StopSound()
+    public void PausarSonido(int indice)
     {
-        if (audioSource.isPlaying)
-            audioSource.Stop();
+        if (fuenteAudio.clip == sonidos[indice] && fuenteAudio.isPlaying)
+        {
+            fuenteAudio.Pause();
+        }
+    }
+
+    public bool EstaReproduciendo(int indice)
+    {
+        return fuenteAudio.clip == sonidos[indice] && fuenteAudio.isPlaying;
     }
 }

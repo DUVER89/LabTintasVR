@@ -20,6 +20,30 @@ PrefabInstance:
       propertyPath: m_enableAutoSizing
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1936441984584980729, guid: 5ac04be9157c7254e8eaffadf877cd95, type: 3}
+      propertyPath: m_Size.x
+      value: 0.21717037
+      objectReference: {fileID: 0}
+    - target: {fileID: 1936441984584980729, guid: 5ac04be9157c7254e8eaffadf877cd95, type: 3}
+      propertyPath: m_Size.y
+      value: 0.7003672
+      objectReference: {fileID: 0}
+    - target: {fileID: 1936441984584980729, guid: 5ac04be9157c7254e8eaffadf877cd95, type: 3}
+      propertyPath: m_Size.z
+      value: 0.2091511
+      objectReference: {fileID: 0}
+    - target: {fileID: 1936441984584980729, guid: 5ac04be9157c7254e8eaffadf877cd95, type: 3}
+      propertyPath: m_Center.x
+      value: 0.0022480413
+      objectReference: {fileID: 0}
+    - target: {fileID: 1936441984584980729, guid: 5ac04be9157c7254e8eaffadf877cd95, type: 3}
+      propertyPath: m_Center.y
+      value: 0.027720809
+      objectReference: {fileID: 0}
+    - target: {fileID: 1936441984584980729, guid: 5ac04be9157c7254e8eaffadf877cd95, type: 3}
+      propertyPath: m_Center.z
+      value: -0.06674857
+      objectReference: {fileID: 0}
     - target: {fileID: 2058392435518592765, guid: 5ac04be9157c7254e8eaffadf877cd95, type: 3}
       propertyPath: m_LocalPosition.z
       value: -0.127

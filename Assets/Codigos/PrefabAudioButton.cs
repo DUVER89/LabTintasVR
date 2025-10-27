@@ -1,28 +1,40 @@
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
 
 public class PrefabAudioButton : MonoBehaviour
 {
-    [Header("�ndice del sonido que reproducir� este bot�n")]
+    [Header("Índice del sonido que reproducirá o pausará este botón")]
     public int soundIndex = 0;
 
-    private Button myButton;
+    private Button miBoton;
 
     void Start()
     {
-        myButton = GetComponent<Button>();
+        miBoton = GetComponent<Button>();
 
-        if (myButton != null)
-            myButton.onClick.AddListener(OnButtonPressed);
+        if (miBoton != null)
+            miBoton.onClick.AddListener(AlPresionarBoton);
         else
-            Debug.LogWarning($"No se encontr� componente Button en {name}");
+            Debug.LogWarning($"No se encontró componente Button en {name}");
     }
 
-    void OnButtonPressed()
+    void AlPresionarBoton()
     {
-        if (AudioManagerGlobal.Instance != null)
-            AudioManagerGlobal.Instance.PlaySound(soundIndex);
+        if (AudioManagerGlobal.Instance == null)
+        {
+            Debug.LogError("No se encontró AudioManagerGlobal en la escena.");
+            return;
+        }
+
+        // Si el sonido ya se está reproduciendo → pausar
+        if (AudioManagerGlobal.Instance.EstaReproduciendo(soundIndex))
+        {
+            AudioManagerGlobal.Instance.PausarSonido(soundIndex);
+        }
         else
-            Debug.LogError("No se encontr� AudioManagerGlobal en la escena.");
+        {
+            // Si no se está reproduciendo → reproducir
+            AudioManagerGlobal.Instance.ReproducirSonido(soundIndex);
+        }
     }
 }
