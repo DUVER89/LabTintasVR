@@ -315,6 +315,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7384328197884660940, guid: 40f2ec8dd0fcf4947a566012654ecc58, type: 3}
+      propertyPath: clip
+      value: 
+      objectReference: {fileID: 8300000, guid: a2d317102110e3340998eded69ccfaf1, type: 3}
     - target: {fileID: 7557636021820970198, guid: 40f2ec8dd0fcf4947a566012654ecc58, type: 3}
       propertyPath: m_UseGravity
       value: 1
@@ -384,8 +388,8 @@ PrefabInstance:
       value: -90
       objectReference: {fileID: 0}
     m_RemovedComponents:
-    - {fileID: 7080861626589638488, guid: 40f2ec8dd0fcf4947a566012654ecc58, type: 3}
-    - {fileID: 4923463408614079263, guid: 40f2ec8dd0fcf4947a566012654ecc58, type: 3}
+    - {fileID: 0}
+    - {fileID: 0}
     m_RemovedGameObjects:
     - {fileID: 6697976828150142426, guid: 40f2ec8dd0fcf4947a566012654ecc58, type: 3}
     m_AddedGameObjects:
@@ -510,6 +514,10 @@ PrefabInstance:
       propertyPath: m_IsKinematic
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2084748349707939390, guid: c7a6fdf5a474bed4c84419ac490ffb80, type: 3}
+      propertyPath: clip
+      value: 
+      objectReference: {fileID: 8300000, guid: a2d317102110e3340998eded69ccfaf1, type: 3}
     - target: {fileID: 2499002448989992147, guid: c7a6fdf5a474bed4c84419ac490ffb80, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0

@@ -143,7 +143,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4749853323797036586, guid: 774cce73376176546a36a97073e4a37a, type: 3}
       propertyPath: m_Size.x
-      value: 0.2054968
+      value: 0.2518928
       objectReference: {fileID: 0}
     - target: {fileID: 4749853323797036586, guid: 774cce73376176546a36a97073e4a37a, type: 3}
       propertyPath: m_Size.y
@@ -151,11 +151,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4749853323797036586, guid: 774cce73376176546a36a97073e4a37a, type: 3}
       propertyPath: m_Size.z
-      value: 0.2618484
+      value: 0.26030186
       objectReference: {fileID: 0}
     - target: {fileID: 4749853323797036586, guid: 774cce73376176546a36a97073e4a37a, type: 3}
       propertyPath: m_Center.x
-      value: -0.000000074505806
+      value: -0.0030930936
       objectReference: {fileID: 0}
     - target: {fileID: 4749853323797036586, guid: 774cce73376176546a36a97073e4a37a, type: 3}
       propertyPath: m_Center.y
@@ -163,7 +163,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4749853323797036586, guid: 774cce73376176546a36a97073e4a37a, type: 3}
       propertyPath: m_Center.z
-      value: 0.00014358759
+      value: 0.00091685355
       objectReference: {fileID: 0}
     - target: {fileID: 5128623574946243198, guid: 774cce73376176546a36a97073e4a37a, type: 3}
       propertyPath: soundIndex
@@ -201,6 +201,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.y
       value: -90
       objectReference: {fileID: 0}
+    - target: {fileID: 6085956563662556511, guid: 774cce73376176546a36a97073e4a37a, type: 3}
+      propertyPath: clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 08374757a81d6604c83ae6a7cff32c7d, type: 3}
     - target: {fileID: 6552125630104032581, guid: 774cce73376176546a36a97073e4a37a, type: 3}
       propertyPath: m_UseGravity
       value: 1

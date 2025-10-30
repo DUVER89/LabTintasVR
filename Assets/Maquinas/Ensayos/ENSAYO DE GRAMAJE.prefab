@@ -197,6 +197,10 @@ PrefabInstance:
       propertyPath: m_Center.z
       value: -0.010926992
       objectReference: {fileID: 0}
+    - target: {fileID: 1163987372300667224, guid: 23a77087a093bed43a6031aacd5da79d, type: 3}
+      propertyPath: clip
+      value: 
+      objectReference: {fileID: 8300000, guid: e8fe4e5956598f0498124698492f95df, type: 3}
     - target: {fileID: 2215536739831812418, guid: 23a77087a093bed43a6031aacd5da79d, type: 3}
       propertyPath: m_UseGravity
       value: 1

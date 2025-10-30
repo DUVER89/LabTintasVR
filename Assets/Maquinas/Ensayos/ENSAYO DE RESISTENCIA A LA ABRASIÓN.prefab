@@ -213,6 +213,10 @@ PrefabInstance:
       propertyPath: m_IsKinematic
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7707462662146513783, guid: b8d22e836aaf8cd4288071875cbb6cde, type: 3}
+      propertyPath: clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 8329eaf4d6772fe47a461389bedb0e78, type: 3}
     - target: {fileID: 8205837735021146529, guid: b8d22e836aaf8cd4288071875cbb6cde, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0

@@ -178,7 +178,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Emulsificador
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2024867412849657005, guid: 5ac04be9157c7254e8eaffadf877cd95, type: 3}
     m_RemovedGameObjects:
     - {fileID: 5042190581115923751, guid: 5ac04be9157c7254e8eaffadf877cd95, type: 3}
     m_AddedGameObjects:

@@ -150,7 +150,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Espectrofotometro Variant
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2024867412849657005, guid: 5ac04be9157c7254e8eaffadf877cd95, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 3530916667308339553, guid: 5ac04be9157c7254e8eaffadf877cd95, type: 3}

@@ -221,6 +221,10 @@ PrefabInstance:
       propertyPath: m_IsKinematic
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7619514086904475598, guid: e8ba0e124d53c5641b6eafb4a6ee92a9, type: 3}
+      propertyPath: clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 8de72bc9137f36c449eb9371b863a284, type: 3}
     - target: {fileID: 8821982511431111359, guid: e8ba0e124d53c5641b6eafb4a6ee92a9, type: 3}
       propertyPath: m_LocalRotation.w
       value: 0.7071068
