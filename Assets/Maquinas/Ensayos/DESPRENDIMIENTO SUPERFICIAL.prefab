@@ -204,7 +204,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5807659146385296326}
   m_Layer: 0
-  m_Name: ENSAYO DE DESPRENDIMIENTO SUPERFICIAL
+  m_Name: DESPRENDIMIENTO SUPERFICIAL
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -269,11 +269,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4493557112364752806, guid: b27ca4aa7ced28f41b4f334c0e95641d, type: 3}
       propertyPath: m_Name
-      value: Simulador de Impresion
+      value: Simulador De Impresion
       objectReference: {fileID: 0}
     - target: {fileID: 4493557112364752806, guid: b27ca4aa7ced28f41b4f334c0e95641d, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4515919611553741641, guid: b27ca4aa7ced28f41b4f334c0e95641d, type: 3}
+      propertyPath: m_Name
+      value: Simulador De Impresion
       objectReference: {fileID: 0}
     - target: {fileID: 6642797709340376774, guid: b27ca4aa7ced28f41b4f334c0e95641d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -591,9 +595,13 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6565638811742605006, guid: 812898bdb99419742a359d568359ae1b, type: 3}
+      propertyPath: m_Name
+      value: Unidad De Entintado
+      objectReference: {fileID: 0}
     - target: {fileID: 8917162989830216919, guid: 812898bdb99419742a359d568359ae1b, type: 3}
       propertyPath: m_Name
-      value: Unidad de entintado
+      value: Unidad De Entintado
       objectReference: {fileID: 0}
     - target: {fileID: 8917162989830216919, guid: 812898bdb99419742a359d568359ae1b, type: 3}
       propertyPath: m_IsActive

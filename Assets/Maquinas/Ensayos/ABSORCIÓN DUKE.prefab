@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7824107872888652132}
   m_Layer: 0
-  m_Name: "ENSAYO DE ABSORCI\xD3N DUKE "
+  m_Name: "ABSORCI\xD3N DUKE"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -180,6 +180,10 @@ PrefabInstance:
     - target: {fileID: 4648759034439601823, guid: b8d3966e1daae4a4f8f62d27089509c8, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7136982726195250438, guid: b8d3966e1daae4a4f8f62d27089509c8, type: 3}
+      propertyPath: m_Name
+      value: Emulsificador
       objectReference: {fileID: 0}
     - target: {fileID: 7512135387427889084, guid: b8d3966e1daae4a4f8f62d27089509c8, type: 3}
       propertyPath: m_LocalPosition.x

@@ -148,7 +148,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6013415119252869121, guid: 5ac04be9157c7254e8eaffadf877cd95, type: 3}
       propertyPath: m_Name
-      value: Espectrofotometro Variant
+      value: Espectrofotometro
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 2024867412849657005, guid: 5ac04be9157c7254e8eaffadf877cd95, type: 3}

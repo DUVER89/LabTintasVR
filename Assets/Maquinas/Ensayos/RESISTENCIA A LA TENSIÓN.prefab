@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7599795538825207564}
   m_Layer: 0
-  m_Name: "ENSAYO DE RESISTENCIA A LA TENSI\xD3N"
+  m_Name: "RESISTENCIA A LA TENSI\xD3N"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -139,7 +139,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 596358510236776146, guid: 774cce73376176546a36a97073e4a37a, type: 3}
       propertyPath: m_Name
-      value: Maquina Universal de ensayos
+      value: Maquina Universal De Ensayos
       objectReference: {fileID: 0}
     - target: {fileID: 4749853323797036586, guid: 774cce73376176546a36a97073e4a37a, type: 3}
       propertyPath: m_Size.x
@@ -213,6 +213,14 @@ PrefabInstance:
       propertyPath: m_IsKinematic
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6655113443820951341, guid: 774cce73376176546a36a97073e4a37a, type: 3}
+      propertyPath: m_fontSize
+      value: 32
+      objectReference: {fileID: 0}
+    - target: {fileID: 6655113443820951341, guid: 774cce73376176546a36a97073e4a37a, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 32
+      objectReference: {fileID: 0}
     - target: {fileID: 7653049355466512306, guid: 774cce73376176546a36a97073e4a37a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -252,6 +260,10 @@ PrefabInstance:
     - target: {fileID: 7653049355466512306, guid: 774cce73376176546a36a97073e4a37a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8599988639052818094, guid: 774cce73376176546a36a97073e4a37a, type: 3}
+      propertyPath: m_Name
+      value: Maquina Universal De Ensayos
       objectReference: {fileID: 0}
     - target: {fileID: 8940380518559726612, guid: 774cce73376176546a36a97073e4a37a, type: 3}
       propertyPath: m_LocalScale.x

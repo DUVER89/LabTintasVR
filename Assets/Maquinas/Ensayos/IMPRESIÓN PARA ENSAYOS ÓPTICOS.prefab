@@ -269,11 +269,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4493557112364752806, guid: b27ca4aa7ced28f41b4f334c0e95641d, type: 3}
       propertyPath: m_Name
-      value: Simulador de Impresion
+      value: Simulador De Impresion
       objectReference: {fileID: 0}
     - target: {fileID: 4493557112364752806, guid: b27ca4aa7ced28f41b4f334c0e95641d, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4515919611553741641, guid: b27ca4aa7ced28f41b4f334c0e95641d, type: 3}
+      propertyPath: m_Name
+      value: Simulador De Impresion
       objectReference: {fileID: 0}
     - target: {fileID: 6642797709340376774, guid: b27ca4aa7ced28f41b4f334c0e95641d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -319,6 +323,14 @@ PrefabInstance:
       propertyPath: clip
       value: 
       objectReference: {fileID: 8300000, guid: 7f70651747240e546ae51259a394d5ad, type: 3}
+    - target: {fileID: 7656494230130409049, guid: b27ca4aa7ced28f41b4f334c0e95641d, type: 3}
+      propertyPath: m_fontSize
+      value: 36
+      objectReference: {fileID: 0}
+    - target: {fileID: 7656494230130409049, guid: b27ca4aa7ced28f41b4f334c0e95641d, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 36
+      objectReference: {fileID: 0}
     - target: {fileID: 7851798415016639537, guid: b27ca4aa7ced28f41b4f334c0e95641d, type: 3}
       propertyPath: m_UseGravity
       value: 1
@@ -591,9 +603,13 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6565638811742605006, guid: 812898bdb99419742a359d568359ae1b, type: 3}
+      propertyPath: m_Name
+      value: Unidad De Entintado
+      objectReference: {fileID: 0}
     - target: {fileID: 8917162989830216919, guid: 812898bdb99419742a359d568359ae1b, type: 3}
       propertyPath: m_Name
-      value: Unidad de entintado
+      value: Unidad De Entintado
       objectReference: {fileID: 0}
     - target: {fileID: 8917162989830216919, guid: 812898bdb99419742a359d568359ae1b, type: 3}
       propertyPath: m_IsActive

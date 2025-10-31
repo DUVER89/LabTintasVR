@@ -54,7 +54,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: e8753c685f7f6104097d7efbff81aa35, type: 2}
     - target: {fileID: 919132149155446097, guid: 411b267aab817204f9637db5b3f647c9, type: 3}
       propertyPath: m_Name
-      value: 'espectrodesimetro '
+      value: "Espectrodensit\xF3metro"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -76,9 +76,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 535637799939453438, guid: 5ac04be9157c7254e8eaffadf877cd95, type: 3}
       propertyPath: m_text
-      value: 'espectrodesimetro
-
-'
+      value: "Espectrodensit\xF3metro"
       objectReference: {fileID: 0}
     - target: {fileID: 1936441984584980729, guid: 5ac04be9157c7254e8eaffadf877cd95, type: 3}
       propertyPath: m_Size.x
@@ -150,7 +148,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6013415119252869121, guid: 5ac04be9157c7254e8eaffadf877cd95, type: 3}
       propertyPath: m_Name
-      value: espectrodesimetro
+      value: "Espectrodensit\xF3metro"
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 2024867412849657005, guid: 5ac04be9157c7254e8eaffadf877cd95, type: 3}

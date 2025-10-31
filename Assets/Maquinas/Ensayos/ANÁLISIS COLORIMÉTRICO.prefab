@@ -151,6 +151,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2417077146404391891}
     m_Modifications:
+    - target: {fileID: 433767230425921181, guid: e8ba0e124d53c5641b6eafb4a6ee92a9, type: 3}
+      propertyPath: m_Name
+      value: "Espectrodensit\xF3metro"
+      objectReference: {fileID: 0}
     - target: {fileID: 695298737818220537, guid: e8ba0e124d53c5641b6eafb4a6ee92a9, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 1
@@ -241,7 +245,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3859279667695932483, guid: e8ba0e124d53c5641b6eafb4a6ee92a9, type: 3}
       propertyPath: m_Name
-      value: Espectrodesimetro
+      value: "Espectrodensit\xF3metro"
       objectReference: {fileID: 0}
     - target: {fileID: 6340308897228387619, guid: e8ba0e124d53c5641b6eafb4a6ee92a9, type: 3}
       propertyPath: m_LocalPosition.x

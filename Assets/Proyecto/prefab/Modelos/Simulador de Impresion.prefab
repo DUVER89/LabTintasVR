@@ -66,7 +66,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 413410991818aa747aa1dab0d7486886, type: 3}
       propertyPath: m_Name
-      value: IGT Printability Tester
+      value: Simulador De Impresion
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -88,7 +88,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 535637799939453438, guid: 5ac04be9157c7254e8eaffadf877cd95, type: 3}
       propertyPath: m_text
-      value: Simulador de Impresion
+      value: Simulador De Impresion
       objectReference: {fileID: 0}
     - target: {fileID: 1936441984584980729, guid: 5ac04be9157c7254e8eaffadf877cd95, type: 3}
       propertyPath: m_Size.x
@@ -164,7 +164,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6013415119252869121, guid: 5ac04be9157c7254e8eaffadf877cd95, type: 3}
       propertyPath: m_Name
-      value: Simulador de Impresion
+      value: Simulador De Impresion
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

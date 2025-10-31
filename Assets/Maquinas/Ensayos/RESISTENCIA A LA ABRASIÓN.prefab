@@ -107,7 +107,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6311631328499396806}
   m_Layer: 0
-  m_Name: "ENSAYO DE RESISTENCIA A LA ABRASI\xD3N"
+  m_Name: "RESISTENCIA A LA ABRASI\xD3N"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -288,6 +288,10 @@ PrefabInstance:
     - target: {fileID: 8768304735806125142, guid: b8d22e836aaf8cd4288071875cbb6cde, type: 3}
       propertyPath: soundIndex
       value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8839208571282271003, guid: b8d22e836aaf8cd4288071875cbb6cde, type: 3}
+      propertyPath: m_Name
+      value: Medidor de Abrasion
       objectReference: {fileID: 0}
     - target: {fileID: 9180903562423920642, guid: b8d22e836aaf8cd4288071875cbb6cde, type: 3}
       propertyPath: m_Size.x

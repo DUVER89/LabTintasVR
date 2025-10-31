@@ -10,7 +10,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 535637799939453438, guid: 5ac04be9157c7254e8eaffadf877cd95, type: 3}
       propertyPath: m_text
-      value: Maquina Universal de ensayos
+      value: Maquina Universal De Ensayos
       objectReference: {fileID: 0}
     - target: {fileID: 535637799939453438, guid: 5ac04be9157c7254e8eaffadf877cd95, type: 3}
       propertyPath: m_fontSize
@@ -94,7 +94,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6013415119252869121, guid: 5ac04be9157c7254e8eaffadf877cd95, type: 3}
       propertyPath: m_Name
-      value: Maquina Universal de ensayos
+      value: Maquina Universal De Ensayos
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -175,7 +175,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 5c70bb8fe8f51094ab5c797c28dd7641, type: 3}
       propertyPath: m_Name
-      value: MAQUINA NARANJA
+      value: Maquina Universal De Ensayos
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

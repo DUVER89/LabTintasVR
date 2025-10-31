@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6884943518009737116}
   m_Layer: 0
-  m_Name: ENSAYO DE RESISTENCIA AL PLEGADO
+  m_Name: RESISTENCIA AL PLEGADO
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -311,7 +311,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7928684527734701349, guid: 0b022e8b195c5054d9fd2492215f42a1, type: 3}
       propertyPath: m_Name
-      value: Resistencia al Plegado
+      value: Resistencia Al Plegado
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
